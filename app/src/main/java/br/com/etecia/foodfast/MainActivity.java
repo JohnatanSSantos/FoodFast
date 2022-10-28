@@ -32,32 +32,22 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.mFav:
+            case R.id.minicio:
                 Toast.makeText(getApplicationContext(),
                         "Cliquei no favoritos",
                         Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.mBuscar:
+            case R.id.mExtrato:
                 Toast.makeText(getApplicationContext(),
                         "Cliquei no favoritos",
                         Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.mConfig:
+            case R.id.mAjuda:
                 Toast.makeText(getApplicationContext(),
                         "Cliquei no favoritos",
                         Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.mHistorico:
-                Toast.makeText(getApplicationContext(),
-                        "Cliquei no favoritos",
-                        Toast.LENGTH_SHORT).show();
-                break;
-            case R.id.mSobre:
-                Toast.makeText(getApplicationContext(),
-                        "Cliquei no favoritos",
-                        Toast.LENGTH_SHORT).show();
-                break;
-            case R.id.mCompartilhar:
+            case R.id.mCartoes:
                 Toast.makeText(getApplicationContext(),
                         "Cliquei no favoritos",
                         Toast.LENGTH_SHORT).show();
