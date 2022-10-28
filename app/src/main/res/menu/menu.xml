@@ -29,7 +29,7 @@
         app:showAsAction="ifRoom" />
     <item
         android:id="@+id/mCompartilhar"
-        android:icon="@drawable/ic_baseline_info"
+        android:icon="@drawable/ic_baseline_share"
         android:title="Compartilhar"
         app:showAsAction="ifRoom" />
 
