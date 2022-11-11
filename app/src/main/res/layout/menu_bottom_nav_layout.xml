@@ -8,6 +8,7 @@
 
     <FrameLayout
         android:id="@+id/idContainer"
+        android:layout_above="@+id/idBottomNav"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#A788F1" />
