@@ -6,7 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".MenuBottomNavActivity">
 
+    <FrameLayout
+        android:id="@+id/idContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A788F1" />
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/idBottomNav"
         style="@style/Widget.MaterialComponents.BottomNavigationView.Colored"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
