@@ -2,4 +2,5 @@
     <string name="app_name">FoodFast</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Descricao">A Pizza de Frango com Requeijão possui uma massa leve e um recheio especial, composto pelo nosso frango desfiado, queijo mussarela e requeijão, que garantem, em poucos minutos, um sabor delicioso para diversos momentos.</string>
 </resources>

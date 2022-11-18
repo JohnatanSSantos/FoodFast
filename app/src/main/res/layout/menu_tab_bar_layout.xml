@@ -30,14 +30,26 @@
             android:text="Lanches" />
     </com.google.android.material.tabs.TabLayout>
 
-    <FrameLayout
-
-        android:background="#FFC107"
-        android:id="@+id/idContainerTabLayout"
+    <include
+        android:id="@+id/fragPorcoes"
+        layout="@layout/fragment_porcoes"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/idTabLayout">
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idTabLayout" />
 
-    </FrameLayout>
+    <include
+        android:id="@+id/fragBebidas"
+        layout="@layout/fragment_bebidas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragPorcoes" />
+
+    <include
+        android:id="@+id/idfragLanches"
+        layout="@layout/fragment_lanches"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragBebidas" />
+
 
 </RelativeLayout>
